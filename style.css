@@ -1,0 +1,45 @@
+ @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&family=Montserrat+Subrayada&display=swap'); 
+html, body {
+  height: 100%;
+  width: 100%;
+  background: #F7DAD9;
+font-family: 'Montserrat Subrayada', sans-serif
+}
+button{
+  padding: 20px;
+  margin: 0 2px;
+  font-weight: bolder;
+  width: 60px;
+  font-size: 1.2vw;
+  font-family: Ebgaramond;
+  border: 1px solid #F3E9DD ;
+  border-radius: 50px;
+  background:#DEB6AB;
+  cursor: pointer;
+}
+input:hover{
+  background:lightcyan;
+}
+button:hover{
+  background: #FDEFEF;
+}
+.mx-auto{
+ margin: auto;
+}
+.row{
+  margin: 2px 0;
+  padding: 5px;
+  
+}
+.row input{
+  margin: 20px;
+  text-align: right;
+  height: 40px;
+  font-size: 18px;
+  padding: 15px 20px;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+.container{
+  box-shadow: -15px -15px 15px 15px rgba(255, 255, 255, 0.8);
+}
